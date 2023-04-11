@@ -19,8 +19,12 @@ include('./conn.php');
 <nav>  
 <ul>  
 <li>  
-<a href="#"> User </a>  
+<a href="./index.php"> User </a>  
+</li> 
+<li>  
+<a href="./user_list.php"> User List</a>  
 </li>  
+
 <li>  
 <a href="teacher.php"> Teacher </a>  
 </li>  
