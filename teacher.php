@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teacher form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
+    <link rel="stylesheet" href="navbar.css">
+
+ <style>
         .container h2{
             margin:50px 0px;
             color:#6a359c;
@@ -15,6 +17,32 @@
     </style>
 </head>
 <body>
+<header>  
+<nav>  
+<ul>  
+<li>  
+<a href="./index.php"> User </a>  
+</li> 
+<li>  
+<a href="./user_list.php"> User List</a>  
+</li>  
+
+<li>  
+<a href="teacher.php"> Teacher </a>  
+</li>  
+<li>  
+<a href="#"> Contact </a>  
+</li>  
+<li> <a href="#"> Terms of use </a>  
+</li>  
+<li>  
+<a href="#"> Join Us </a>  
+</li>  
+</ul>  
+</nav>  
+</header>  
+
+
     <div class="container">
 
         <h2>Teacher Info Form</h2>
