@@ -11,6 +11,7 @@ include('./header.inc.php');
                     <th scope="col">User Name</th>
                     <th scope="col">User Last Name</th>
                     <th scope="col">User Email</th>
+                    <th scope="col">User Edit</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,6 +29,9 @@ include('./header.inc.php');
                             <td><?php echo $data['useri_fname'] ?></td>
                             <td><?php echo $data['useri_lname'] ?></td>
                             <td><?php echo $data['useri_email'] ?></td>
+                            <td>
+                                <a href="user_update.php?usr=<?php echo $data['useri_id'] ?>">Edit</a>
+                            </td>
 
                         </tr>
                 <?php

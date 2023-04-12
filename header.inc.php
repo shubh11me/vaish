@@ -24,6 +24,9 @@
 
 <li>  
 <a href="teacher.php"> Teacher </a>  
+</li> 
+<li>  
+<a href="./teacher_list.php"> Teacher List</a>  
 </li>  
 <li>  
 <a href="#"> Contact </a>  
