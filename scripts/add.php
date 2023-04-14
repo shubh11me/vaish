@@ -20,6 +20,7 @@ $qu="update usersssss set useri_fname='$naav',useri_lname='$aadnaav',useri_email
 }
 // echo $qu;
 // die();
+
 $result=mysqli_query($c,$qu);
 if ($result) {
     echo "Sucesss";
