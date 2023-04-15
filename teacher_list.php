@@ -10,6 +10,9 @@ include('./header.inc.php');
                     <th scope="col">#</th>
                     <th scope="col">Teacher Name</th>
                     <th scope="col">Teacher Email</th>
+                    <th scope="col">Teacher Password</th>
+                    <th scope="col">Teacher Edit</th>
+                    <th scope="col">Teacher Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -26,6 +29,13 @@ include('./header.inc.php');
                             <th scope="row">1</th>
                             <td><?php echo $data['teacher_name'] ?></td>
                             <td><?php echo $data['teacher_email'] ?></td>
+                            <td><?php echo $data['teacher_password'] ?></td>
+                            <td>
+                            <a href="teacher_update.php?tea=<?php echo $data['teacher_id'] ?>">Edit</a>
+                            </td>
+                            <td>
+                            <a href="scripts/delete_teacher.php?tea=<?php echo $data['teacher_id'] ?>">Delete</a>
+                            </td>
 
                         </tr>
                 <?php
